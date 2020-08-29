@@ -7,7 +7,7 @@ import Helmet from 'react-helmet';
 const MainTemplate = ({ children }) => {
   return (
     <>
-      <Helmet lang="pl" title="Hello Roman" />
+      <Helmet lang="pl" title="The Movies API" />
       <GlobalStyle />
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </>
