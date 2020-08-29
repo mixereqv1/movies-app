@@ -1,5 +1,13 @@
 import React from 'react';
 
-const IndexPage = () => <p>Movies app</p>;
+import SearchInput from 'components/atoms/SearchInput/SearchInput';
+
+const IndexPage = () => {
+  return (
+    <div>
+      <SearchInput />
+    </div>
+  );
+};
 
 export default IndexPage;
